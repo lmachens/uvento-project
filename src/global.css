@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
 
 *,
 *::after,
@@ -22,4 +22,23 @@ optgroup,
 textarea {
   margin: 0;
   font-family: "Quicksand", sans-serif;
+}
+
+:root {
+  --home-font-color: #ffa700;
+  --primary-background-color: #102733;
+  --text-font-color: #ffffff;
+  --secondary-font-color: #f5f5f5;
+  --profile-border-color: #fae072;
+  --calendar-day-color: #d8d9db;
+  --primary-font-color: #fccd00;
+  --primary-calendar-color: #cccccc;
+  --border-calendar-color: #00000013;
+  --secondary-calendar-color: #000000;
+  --primary-card-color: #29404e;
+  --secondary-card-color: #2a414f;
+  --box-shadow-color: #00000029; /*Komische nonsense Farbe*/
+  --event-box-color: #283f4d;
+  --icon-color: #e4e4e4;
+  --footer-background-color: #152f3e;
 }
