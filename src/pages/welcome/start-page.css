@@ -1,0 +1,33 @@
+header {
+  background-color: var(--primary-background-color);
+}
+
+main {
+  height: 100vh;
+  width: 100vw;
+  background-color: var(--primary-background-color);
+}
+
+.homebutton {
+  width: 138px;
+  height: 55px;
+  border: none;
+  border-radius: 27pt;
+  text-align: center;
+  color: var(--home-font-color);
+  background-color: green;
+}
+
+.icon-home {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer {
+  display: flex;
+  align-items: flex-end;
+  justify-content: stretch;
+  background-color: var(--footer-background-color);
+  position: fixed;
+}
