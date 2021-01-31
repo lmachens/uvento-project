@@ -1,11 +1,61 @@
-header {
-  background-color: var(--primary-background-color);
-}
-
 main {
   height: 100vh;
   width: 100vw;
   background-color: var(--primary-background-color);
+}
+
+.first-page {
+  /* display: grid;
+  grid-template-columns: 100%; */
+  /* grid-template-rows: 91px, 54px, 67px, 147px, 391px, 98px; 
+  grid-template-rows: 15% 10% 10% 20% 45%;*/
+}
+
+.head-container {
+  padding: 40px 25px 25px 25px;
+  padding-left: 25px;
+  background-color: var(--primary-background-color‚);
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: 100%;
+}
+
+.fancy {
+  color: var(--primary-font-color);
+}
+
+.mainlogo {
+  display: inline-block;
+}
+
+h1 {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--secondary-font-color);
+  font-weight: 700;
+  display: inline-block;
+}
+
+.notification-corner {
+  display: flex;
+  justify-content: flex-end;
+}
+.icon_bell {
+  margin-right: 20px;
+}
+
+.hello-container {
+  padding: 0 25px 25px 25px;
+  background-color: var(--primary-background-color);
+}
+
+.calendar-container {
+}
+
+.all-events-container {
+}
+
+.popular-events-container {
 }
 
 .homebutton {
