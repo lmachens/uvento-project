@@ -1,9 +1,9 @@
-import "./typography.css";
-import typography from "./typography.html";
+import "./eventcards.css";
+import eventCards from "./eventcards.html";
 
 export default {
   title: "Components/Typography",
   parameters: { layout: "centered" },
 };
 
-export const headers = () => typography;
+export const EventCards = () => eventCards;

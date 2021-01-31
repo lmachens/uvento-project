@@ -8,14 +8,23 @@ main {
   background-color: var(--primary-background-color);
 }
 
+.startpage-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
 .homebutton {
   width: 138px;
   height: 55px;
   border: none;
   border-radius: 27pt;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   text-align: center;
   color: var(--home-font-color);
-  background-color: green;
+  background-color: var(--primary-background-color);
 }
 
 .icon-home {
@@ -27,7 +36,7 @@ main {
 .footer {
   display: flex;
   align-items: flex-end;
-  justify-content: stretch;
+  justify-content: space-between;
+  align-items: center;
   background-color: var(--footer-background-color);
-  position: fixed;
 }
