@@ -1,0 +1,28 @@
+.eventcontainer {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 5px;
+}
+
+.card {
+  width: 364px;
+  height: 98px;
+  display: flex;
+  align-self: flex-end;
+  background-color: var(--event-box-color);
+  border-radius: 15px;
+  font-size: 9pt;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.eventheadline {
+  font-size: 11pt;
+}
+
+.card-img {
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}

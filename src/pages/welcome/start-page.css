@@ -4,12 +4,12 @@ main {
   background-color: var(--primary-background-color);
 }
 
-.first-page {
-  /* display: grid;
-  grid-template-columns: 100%; */
-  /* grid-template-rows: 91px, 54px, 67px, 147px, 391px, 98px; 
-  grid-template-rows: 15% 10% 10% 20% 45%;*/
-}
+
+.startpage-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+
 
 .head-container {
   padding: 40px 25px 25px 25px;
@@ -44,28 +44,19 @@ h1 {
   margin-right: 20px;
 }
 
-.hello-container {
-  padding: 0 25px 25px 25px;
-  background-color: var(--primary-background-color);
-}
 
-.calendar-container {
-}
-
-.all-events-container {
-}
-
-.popular-events-container {
-}
 
 .homebutton {
   width: 138px;
   height: 55px;
   border: none;
   border-radius: 27pt;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   text-align: center;
   color: var(--home-font-color);
-  background-color: green;
+  background-color: var(--primary-background-color);
 }
 
 .icon-home {
@@ -77,7 +68,7 @@ h1 {
 .footer {
   display: flex;
   align-items: flex-end;
-  justify-content: stretch;
+  justify-content: space-between;
+  align-items: center;
   background-color: var(--footer-background-color);
-  position: fixed;
 }
